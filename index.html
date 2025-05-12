@@ -6,46 +6,77 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <script>
+    const slider = document.querySelector(".slider-track");
+    const clone = slider.cloneNode(true);
+    document.querySelector(".image-slider").appendChild(clone);
+
+    </script>
+
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="logo">
+        <img src="img\logo.png" alt="logo">
         <div class="menu">
             <a href="">Lĩnh vực</a>
             <a href="">Khách hàng</a>
             <a href="">Liên hệ</a>    
         </div>
+
+        <div class="contact">
+            0905.xxx.000 <br>   
+            09 Trần Phú - Đà Nẵng <br>
+            example.mail.com
+        </div>
     </header>
-    <div class="ImageList">
-        <datalist>
-            <img src="" alt="">
-        </datalist>
+
+    <div class="image-slider">
+        <div class="slider-track">
+            <img src="img\image1.png" alt="Ảnh 1">
+            <img src="img\image2.png" alt="Ảnh 2">
+            <img src="img\image3.png" alt="Ảnh 3">
+            <img src="img\image1.png" alt="Ảnh 1">
+            <img src="img\image2.png" alt="Ảnh 2">
+            <img src="img\image3.png" alt="Ảnh 3">
+            <img src="img\image1.png" alt="Ảnh 1">
+            <img src="img\image2.png" alt="Ảnh 2">
+            <img src="img\image3.png" alt="Ảnh 3">
+            <img src="img\image1.png" alt="Ảnh 1">
+            <img src="img\image2.png" alt="Ảnh 2">
+            <img src="img\image3.png" alt="Ảnh 3">
+        </div>
     </div>
 
 
-    <footer>
-        <div class="GioiThieu">
-        CÔNG TY TNHH TINH TẾ VIỆT
 
-Tinh Tế Việt được thành lập với sứ mệnh tham gia xây dựng và phát triển ngành công nghiệp Quảng Cáo Truyền Thông Đa phương Tiện. Chúng tôi hướng đến mục tiêu trở thành nhà cung cấp giải pháp Quảng Cáo Truyền Thông chuyên nghiệp tại thị trường Đà Nẵng – Miền Trung – Tây Nguyên.
 
-Với đội ngũ nhân viên năng động, nhiệt tình và các nhà cố vấn giàu kinh nghiệm trong lĩnh vực Quảng Cáo Truyền Thông – Đa Phương Tiện chúng tôi tự hào mang đến cho khách hàng sự khác biệt của các giải pháp sáng tạo và thông minh! Hiệu quả đó sẽ đem lại sự yên tâm và tin tưởng tuyệt đối cho Qúy khách khi sử dụng các sản phẩm dịch vụ của chúng tôi. Trên cơ sở tôn trọng và thực tiễn yêu cầu trong công việc của khách hàng.
 
-Hoạt động chính của Tinh Tế Việt:
-- Thiết Kế Logo & Hệ Thống Nhận Diện Thương Hiệu, Thiết Kế Sáng Tạo
-- Thi Công Quảng Cáo
-- Sản Xuất Phim Quảng Cáo
-- Tổ Chức Sự Kiện
-- Sản Xuất và Cung Cấp Quà Tặng Sự Kiện, Vật Phẩm Quảng Cáo
-- In ấn Trọn Gói Trên Mọi Chất Liệu
+<footer>
+        <div class="fade-overlay-buttom"></div> <!-- Hiệu ứng mờ -->
+    <div class="GioiThieu">
+        <h2>CÔNG TY TNHH TINH TẾ VIỆT</h2>
+        <p><strong>Tinh Tế Việt</strong> được thành lập với sứ mệnh tham gia xây dựng và phát triển ngành công nghiệp Quảng Cáo Truyền Thông Đa phương Tiện. Chúng tôi hướng đến mục tiêu trở thành nhà cung cấp giải pháp Quảng Cáo Truyền Thông chuyên nghiệp tại thị trường Đà Nẵng – Miền Trung – Tây Nguyên.</p>
+        
+        <p>Với đội ngũ nhân viên năng động, nhiệt tình và các nhà cố vấn giàu kinh nghiệm trong lĩnh vực Quảng Cáo Truyền Thông – Đa Phương Tiện, chúng tôi tự hào mang đến cho khách hàng sự khác biệt của các giải pháp sáng tạo và thông minh! Hiệu quả đó sẽ đem lại sự yên tâm và tin tưởng tuyệt đối cho quý khách khi sử dụng các sản phẩm dịch vụ của chúng tôi.</p>
 
-Tầm nhìn:
-Đem giá trị đích thực đến khách hàng thông qua việc cung cấp sản phẩm, dịch vụ chất lượng cao. Tinh Tế Việt hành động tích cực cho sự phát triển bền vững lâu dài với khách hàng chúng tôi chỉ thành công khi khách hàng thành công.
+        <h3>Hoạt động chính:</h3>
+        <ul>
+            <li>✅ Thiết Kế Logo & Hệ Thống Nhận Diện Thương Hiệu</li>
+            <li>✅ Thi Công Quảng Cáo</li>
+            <li>✅ Sản Xuất Phim Quảng Cáo</li>
+            <li>✅ Tổ Chức Sự Kiện</li>
+            <li>✅ Sản Xuất và Cung Cấp Quà Tặng Sự Kiện, Vật Phẩm Quảng Cáo</li>
+            <li>✅ In ấn Trọn Gói Trên Mọi Chất Liệu</li>
+        </ul>
 
-” TINH TẾ VIỆT – TẠO NÊN KHÁC BIỆT “
-        </div>
+        <h3>Tầm nhìn:</h3>
+        <p>Đem giá trị đích thực đến khách hàng thông qua việc cung cấp sản phẩm, dịch vụ chất lượng cao. <strong>Tinh Tế Việt</strong> hành động tích cực cho sự phát triển bền vững lâu dài với khách hàng. Chúng tôi chỉ thành công khi khách hàng thành công.</p>
 
-    </footer>
+        <h3 style="text-align: center; font-style: italic;">TINH TẾ VIỆT – TẠO NÊN KHÁC BIỆT</h3>
+    </div>
+</footer>
+
     
 </body>
 </html>
