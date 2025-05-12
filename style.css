@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+        box-shadow: -5px 5px 10px rgba(61, 61, 61, 0.3),  
+                    5px 5px 10px rgba(178, 159, 159, 0.3),  
+                    0px 5px 10px rgba(178, 159, 159, 0.3);
+    overflow-y: auto;
+}
+
+
+header img{
+    width: 90px;
+    padding: 10px;
+    height: auto;
+}
+
+header .menu{
+    margin-left: 300px;
+}
+
+.menu a{
+    margin-right: 50px;
+    font-size: 20px;
+    text-decoration: none; /* Loại bỏ gạch chân mặc định */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+    color: #0C1F9B;
+}
+
+/* .menu a:hover{
+
+} */
+
+footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .GioiThieu{
+    width: 50%;
+    height: auto;
+}
